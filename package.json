@@ -36,7 +36,7 @@
     "@types/node": "^22.10.5",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "parcel": "^2.14.4",
+    "parcel": "^2.15.0",
     "parcel-config-react-router-experimental": "^1.0.10",
     "postcss": "^8.2.1",
     "prettier": "^3.5.3",
