@@ -24,11 +24,11 @@
     "express": "^4.21.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router": "0.0.0-experimental-e988dc602",
+    "react-router": "0.0.0-experimental-28626d62e",
     "react-server-dom-parcel": "^19.1.0"
   },
   "devDependencies": {
-    "@react-router/dev": "0.0.0-experimental-e988dc602",
+    "@react-router/dev": "0.0.0-experimental-28626d62e",
     "@tailwindcss/postcss": "^4.1.4",
     "@tailwindcss/typography": "^0.5.16",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
