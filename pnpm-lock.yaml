@@ -24,15 +24,15 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
       react-router:
-        specifier: 0.0.0-experimental-e87ed2fd4
-        version: 0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: 0.0.0-experimental-e7eb25a7b
+        version: 0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react-server-dom-parcel:
         specifier: ^19.1.0
         version: 19.1.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
     devDependencies:
       '@react-router/dev':
-        specifier: 0.0.0-experimental-e87ed2fd4
-        version: 0.0.0-experimental-e87ed2fd4(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0))
+        specifier: 0.0.0-experimental-e7eb25a7b
+        version: 0.0.0-experimental-e7eb25a7b(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0))
       '@tailwindcss/postcss':
         specifier: ^4.1.4
         version: 4.1.4
@@ -58,8 +58,8 @@ importers:
         specifier: ^2.15.0
         version: 2.15.0
       parcel-config-react-router-experimental:
-        specifier: ^1.0.15
-        version: 1.0.15(@parcel/core@2.15.0)(@react-router/dev@0.0.0-experimental-e87ed2fd4(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)))(react-dom@19.1.0(react@19.1.0))(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-server-dom-parcel@19.1.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)
+        specifier: ^1.0.16
+        version: 1.0.16(@parcel/core@2.15.0)(@react-router/dev@0.0.0-experimental-e7eb25a7b(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)))(react-dom@19.1.0(react@19.1.0))(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-server-dom-parcel@19.1.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)
       postcss:
         specifier: ^8.2.1
         version: 8.5.3
@@ -1043,13 +1043,13 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@react-router/dev@0.0.0-experimental-e87ed2fd4':
-    resolution: {integrity: sha512-0COixM4eLd3bfRKtP7VVoyhHNYdVWDieIDmQS7Xwn2pOvLRDRXaQNMBOzZPDtmwhjTUtzMa4C0h/Jg4UNptEuA==}
+  '@react-router/dev@0.0.0-experimental-e7eb25a7b':
+    resolution: {integrity: sha512-hYKLldbl0xN6jlF242FCvTOMy6JeGAIOG4NvXPDNcKP7+N37a1kEZIMqpDNWaGdhQ/XtIGF50U3Ym9hWXavcug==}
     engines: {node: '>=20.0.0'}
     hasBin: true
     peerDependencies:
-      '@react-router/serve': ^0.0.0-experimental-e87ed2fd4
-      react-router: ^0.0.0-experimental-e87ed2fd4
+      '@react-router/serve': ^0.0.0-experimental-e7eb25a7b
+      react-router: ^0.0.0-experimental-e7eb25a7b
       typescript: ^5.1.0
       vite: ^5.1.0 || ^6.0.0
       wrangler: ^3.28.2 || ^4.0.0
@@ -1061,11 +1061,11 @@ packages:
       wrangler:
         optional: true
 
-  '@react-router/node@0.0.0-experimental-e87ed2fd4':
-    resolution: {integrity: sha512-M90atJc/uNPL6tY1mT+Yda70tArA8aG1W2XIg8j/sTOToTc/AWklQASzjtZTy5ecxwCIpBYg4L7NfN+t5l/D1g==}
+  '@react-router/node@0.0.0-experimental-e7eb25a7b':
+    resolution: {integrity: sha512-1VZWz4R2+V6QsKaiSFy3512I0iNXPHMT/5VUa4AD+zVPvd+heBx1PuPGJs850oyioLfcAvVSnWOn6jaFSPi83w==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
-      react-router: 0.0.0-experimental-e87ed2fd4
+      react-router: 0.0.0-experimental-e7eb25a7b
       typescript: ^5.1.0
     peerDependenciesMeta:
       typescript:
@@ -1653,6 +1653,9 @@ packages:
   es-module-lexer@1.6.0:
     resolution: {integrity: sha512-qqnD1yMU6tk/jnaMosogGySTZP8YtUgAffA9nMN+E/rjxcfRQ6IEk7IiozUjgxKoFHBGjTLnrHB/YC45r/59EQ==}
 
+  es-module-lexer@1.7.0:
+    resolution: {integrity: sha512-jEQoCwk8hyb2AZziIOLhDqpm5+2ww5uIE6lkO/6jcOCusfk6LhMHpXXfBLXTZ7Ydyt0j4VoUQv6uGNYbdW+kBA==}
+
   es-object-atoms@1.1.1:
     resolution: {integrity: sha512-FGgH2h8zKNim9ljj7dankFPcICIK9Cp5bm+c2gQSYePhpaG5+esrLODihIorn+Pe6FGJzWhXQotPv73jTaldXA==}
     engines: {node: '>= 0.4'}
@@ -2165,12 +2168,12 @@ packages:
   package-json-from-dist@1.0.1:
     resolution: {integrity: sha512-UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw==}
 
-  parcel-config-react-router-experimental@1.0.15:
-    resolution: {integrity: sha512-8XIFdRfe6uf9scWcpp5mQobfOl2X4FN9GUKLjS7LuFUeRYUyrEEAtQ3knfREu7T2wFl3xLOy8lgVWC890VhUIg==}
+  parcel-config-react-router-experimental@1.0.16:
+    resolution: {integrity: sha512-st1mP+GDP2m9RFnjIkQWFFXAvdVhhvmdEi9fVh6Q7CZYQz/zPiO2lqxMVek0vxgvtV+08YCOjpg2z2AUK+4NlA==}
     engines: {parcel: '>=2.15.0'}
 
-  parcel-resolver-react-router-experimental@1.0.14:
-    resolution: {integrity: sha512-pf7L2T6kZzYY4T2PlVADJj0Hc6583kRLGKdv5xSw5PlWZMg+4VM6Yn0cadPHHDlY/2iA8WHeh6xNDJIRZunf+Q==}
+  parcel-resolver-react-router-experimental@1.1.0:
+    resolution: {integrity: sha512-oh5JFzwwVpQ1Dg8IIksOClDnDFEgHucqqBWRRle1v+USU7ZpEpnlWa8SUy+wtG3YVd4jT+etAsCxwuelo2L86g==}
     engines: {parcel: '>=2.15.0'}
     peerDependencies:
       '@react-router/dev': '*'
@@ -2179,14 +2182,14 @@ packages:
       react-router: '*'
       react-server-dom-parcel: '*'
 
-  parcel-resolver-react-router-typegen-experimental@1.0.12:
-    resolution: {integrity: sha512-5ZapGuons9XtBIs8NT6zz9n0/6yUYFDGVz8PwAIY/8pkCphmY35uv6NFksBBrEYKO2FSVvNn0353SErq+n7Acw==}
+  parcel-resolver-react-router-typegen-experimental@1.1.0:
+    resolution: {integrity: sha512-UqIBkhutbIupIuJ8WDFqe891a8p8oBjfqsw+ImFWBAC7MFl9pdJ1AOf1CLToDvGQG1ZZ6uut2UEym5Ej4p/2YA==}
     engines: {parcel: '>=2.15.0'}
     peerDependencies:
       '@react-router/dev': '*'
 
-  parcel-transformer-react-router-experimental@1.0.0:
-    resolution: {integrity: sha512-O9sXydpbIfp5pDFupwzJ1SJ2fdLar6yQXuCANpCh/a2gG6XuLohqNOMUPB2V7X42f8BoFmeIxsIbVpRm6WRzNw==}
+  parcel-transformer-react-router-experimental@1.1.0:
+    resolution: {integrity: sha512-WPOIMnaH30SFWXt9gXOwlD7x+EtJxwAb49e+MJx3Oj5666uIRr48sS2Rpk3qDYLaCsD9jyr7QLrZiu9GI+CWlQ==}
     engines: {parcel: '>=2.15.0'}
     peerDependencies:
       react: '*'
@@ -2219,6 +2222,9 @@ packages:
 
   pathe@1.1.2:
     resolution: {integrity: sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==}
+
+  pathe@2.0.3:
+    resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
 
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
@@ -2305,8 +2311,8 @@ packages:
     resolution: {integrity: sha512-FPvF2XxTSikpJxcr+bHut2H4gJ17+18Uy20D5/F+SKzFap62R3cM5wH6b8WN3LyGSYeQilLEcJcR1fjBSI2S1A==}
     engines: {node: '>=0.10.0'}
 
-  react-router@0.0.0-experimental-e87ed2fd4:
-    resolution: {integrity: sha512-khbP7PQrGJH+XHL/wvibsIL1dHKU4WxbudKkosBHHQZCqsf3Txt0wwQMmGZ7e0myVa6QpYvKzd0q42f7PYNgRg==}
+  react-router@0.0.0-experimental-e7eb25a7b:
+    resolution: {integrity: sha512-BGdwBLRD+7MvN0N5XE1ODBaq07kDrU7EiYsIQMNhb7+trqPjaEfWBylKKrnOqUNgHPjT4mQRo9iv6r3zh6kczg==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
@@ -2553,8 +2559,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  vite-node@3.0.0-beta.2:
-    resolution: {integrity: sha512-ofTf6cfRdL30Wbl9n/BX81EyIR5s4PReLmSurrxQ+koLaWUNOEo8E0lCM53OJkb8vpa2URM2nSrxZsIFyvY1rg==}
+  vite-node@3.1.4:
+    resolution: {integrity: sha512-6enNwYnpyDo4hEgytbmc6mYWHXDHYEn0D1/rw4Q+tnHUGtKTJsn8T1YkX6Q18wI5LCrS8CTYlBaiCqxOy2kvUA==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
 
@@ -2708,7 +2714,7 @@ snapshots:
 
   '@babel/helper-annotate-as-pure@7.25.9':
     dependencies:
-      '@babel/types': 7.27.0
+      '@babel/types': 7.27.1
 
   '@babel/helper-compilation-targets@7.27.0':
     dependencies:
@@ -2726,23 +2732,23 @@ snapshots:
       lru-cache: 5.1.1
       semver: 6.3.1
 
-  '@babel/helper-create-class-features-plugin@7.27.0(@babel/core@7.26.10)':
+  '@babel/helper-create-class-features-plugin@7.27.0(@babel/core@7.27.1)':
     dependencies:
-      '@babel/core': 7.26.10
+      '@babel/core': 7.27.1
       '@babel/helper-annotate-as-pure': 7.25.9
       '@babel/helper-member-expression-to-functions': 7.25.9
       '@babel/helper-optimise-call-expression': 7.25.9
-      '@babel/helper-replace-supers': 7.26.5(@babel/core@7.26.10)
+      '@babel/helper-replace-supers': 7.26.5(@babel/core@7.27.1)
       '@babel/helper-skip-transparent-expression-wrappers': 7.25.9
-      '@babel/traverse': 7.27.0
+      '@babel/traverse': 7.27.1
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
 
   '@babel/helper-member-expression-to-functions@7.25.9':
     dependencies:
-      '@babel/traverse': 7.27.0
-      '@babel/types': 7.27.0
+      '@babel/traverse': 7.27.1
+      '@babel/types': 7.27.1
     transitivePeerDependencies:
       - supports-color
 
@@ -2780,23 +2786,23 @@ snapshots:
 
   '@babel/helper-optimise-call-expression@7.25.9':
     dependencies:
-      '@babel/types': 7.27.0
+      '@babel/types': 7.27.1
 
   '@babel/helper-plugin-utils@7.26.5': {}
 
-  '@babel/helper-replace-supers@7.26.5(@babel/core@7.26.10)':
+  '@babel/helper-replace-supers@7.26.5(@babel/core@7.27.1)':
     dependencies:
-      '@babel/core': 7.26.10
+      '@babel/core': 7.27.1
       '@babel/helper-member-expression-to-functions': 7.25.9
       '@babel/helper-optimise-call-expression': 7.25.9
-      '@babel/traverse': 7.27.0
+      '@babel/traverse': 7.27.1
     transitivePeerDependencies:
       - supports-color
 
   '@babel/helper-skip-transparent-expression-wrappers@7.25.9':
     dependencies:
-      '@babel/traverse': 7.27.0
-      '@babel/types': 7.27.0
+      '@babel/traverse': 7.27.1
+      '@babel/types': 7.27.1
     transitivePeerDependencies:
       - supports-color
 
@@ -2830,48 +2836,48 @@ snapshots:
     dependencies:
       '@babel/types': 7.27.1
 
-  '@babel/plugin-syntax-decorators@7.25.9(@babel/core@7.26.10)':
+  '@babel/plugin-syntax-decorators@7.25.9(@babel/core@7.27.1)':
     dependencies:
-      '@babel/core': 7.26.10
+      '@babel/core': 7.27.1
       '@babel/helper-plugin-utils': 7.26.5
 
-  '@babel/plugin-syntax-jsx@7.25.9(@babel/core@7.26.10)':
+  '@babel/plugin-syntax-jsx@7.25.9(@babel/core@7.27.1)':
     dependencies:
-      '@babel/core': 7.26.10
+      '@babel/core': 7.27.1
       '@babel/helper-plugin-utils': 7.26.5
 
-  '@babel/plugin-syntax-typescript@7.25.9(@babel/core@7.26.10)':
+  '@babel/plugin-syntax-typescript@7.25.9(@babel/core@7.27.1)':
     dependencies:
-      '@babel/core': 7.26.10
+      '@babel/core': 7.27.1
       '@babel/helper-plugin-utils': 7.26.5
 
-  '@babel/plugin-transform-modules-commonjs@7.26.3(@babel/core@7.26.10)':
+  '@babel/plugin-transform-modules-commonjs@7.26.3(@babel/core@7.27.1)':
     dependencies:
-      '@babel/core': 7.26.10
-      '@babel/helper-module-transforms': 7.26.0(@babel/core@7.26.10)
+      '@babel/core': 7.27.1
+      '@babel/helper-module-transforms': 7.27.1(@babel/core@7.27.1)
       '@babel/helper-plugin-utils': 7.26.5
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/plugin-transform-typescript@7.27.0(@babel/core@7.26.10)':
+  '@babel/plugin-transform-typescript@7.27.0(@babel/core@7.27.1)':
     dependencies:
-      '@babel/core': 7.26.10
+      '@babel/core': 7.27.1
       '@babel/helper-annotate-as-pure': 7.25.9
-      '@babel/helper-create-class-features-plugin': 7.27.0(@babel/core@7.26.10)
+      '@babel/helper-create-class-features-plugin': 7.27.0(@babel/core@7.27.1)
       '@babel/helper-plugin-utils': 7.26.5
       '@babel/helper-skip-transparent-expression-wrappers': 7.25.9
-      '@babel/plugin-syntax-typescript': 7.25.9(@babel/core@7.26.10)
+      '@babel/plugin-syntax-typescript': 7.25.9(@babel/core@7.27.1)
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/preset-typescript@7.27.0(@babel/core@7.26.10)':
+  '@babel/preset-typescript@7.27.0(@babel/core@7.27.1)':
     dependencies:
-      '@babel/core': 7.26.10
+      '@babel/core': 7.27.1
       '@babel/helper-plugin-utils': 7.26.5
-      '@babel/helper-validator-option': 7.25.9
-      '@babel/plugin-syntax-jsx': 7.25.9(@babel/core@7.26.10)
-      '@babel/plugin-transform-modules-commonjs': 7.26.3(@babel/core@7.26.10)
-      '@babel/plugin-transform-typescript': 7.27.0(@babel/core@7.26.10)
+      '@babel/helper-validator-option': 7.27.1
+      '@babel/plugin-syntax-jsx': 7.25.9(@babel/core@7.27.1)
+      '@babel/plugin-transform-modules-commonjs': 7.26.3(@babel/core@7.27.1)
+      '@babel/plugin-transform-typescript': 7.27.0(@babel/core@7.27.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -3843,18 +3849,18 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@react-router/dev@0.0.0-experimental-e87ed2fd4(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0))':
+  '@react-router/dev@0.0.0-experimental-e7eb25a7b(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0))':
     dependencies:
-      '@babel/core': 7.26.10
-      '@babel/generator': 7.27.0
-      '@babel/parser': 7.27.0
-      '@babel/plugin-syntax-decorators': 7.25.9(@babel/core@7.26.10)
-      '@babel/plugin-syntax-jsx': 7.25.9(@babel/core@7.26.10)
-      '@babel/preset-typescript': 7.27.0(@babel/core@7.26.10)
-      '@babel/traverse': 7.27.0
-      '@babel/types': 7.27.0
+      '@babel/core': 7.27.1
+      '@babel/generator': 7.27.1
+      '@babel/parser': 7.27.2
+      '@babel/plugin-syntax-decorators': 7.25.9(@babel/core@7.27.1)
+      '@babel/plugin-syntax-jsx': 7.25.9(@babel/core@7.27.1)
+      '@babel/preset-typescript': 7.27.0(@babel/core@7.27.1)
+      '@babel/traverse': 7.27.1
+      '@babel/types': 7.27.1
       '@npmcli/package-json': 4.0.1
-      '@react-router/node': 0.0.0-experimental-e87ed2fd4(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
+      '@react-router/node': 0.0.0-experimental-e7eb25a7b(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
       arg: 5.0.2
       babel-dead-code-elimination: 1.0.10
       chokidar: 4.0.3
@@ -3868,12 +3874,12 @@ snapshots:
       picocolors: 1.1.1
       prettier: 2.8.8
       react-refresh: 0.14.2
-      react-router: 0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      react-router: 0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       semver: 7.7.1
       set-cookie-parser: 2.7.1
       valibot: 0.41.0
       vite: 6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)
-      vite-node: 3.0.0-beta.2(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)
+      vite-node: 3.1.4(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -3890,10 +3896,10 @@ snapshots:
       - tsx
       - yaml
 
-  '@react-router/node@0.0.0-experimental-e87ed2fd4(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))':
+  '@react-router/node@0.0.0-experimental-e7eb25a7b(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))':
     dependencies:
       '@mjackson/node-fetch-server': 0.2.0
-      react-router: 0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      react-router: 0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       source-map-support: 0.5.21
       stream-slice: 0.1.2
       undici: 6.21.2
@@ -4373,6 +4379,8 @@ snapshots:
   es-errors@1.3.0: {}
 
   es-module-lexer@1.6.0: {}
+
+  es-module-lexer@1.7.0: {}
 
   es-object-atoms@1.1.1:
     dependencies:
@@ -4922,12 +4930,12 @@ snapshots:
 
   package-json-from-dist@1.0.1: {}
 
-  parcel-config-react-router-experimental@1.0.15(@parcel/core@2.15.0)(@react-router/dev@0.0.0-experimental-e87ed2fd4(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)))(react-dom@19.1.0(react@19.1.0))(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-server-dom-parcel@19.1.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0):
+  parcel-config-react-router-experimental@1.0.16(@parcel/core@2.15.0)(@react-router/dev@0.0.0-experimental-e7eb25a7b(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)))(react-dom@19.1.0(react@19.1.0))(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-server-dom-parcel@19.1.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0):
     dependencies:
       '@parcel/config-default': 2.15.0(@parcel/core@2.15.0)
-      parcel-resolver-react-router-experimental: 1.0.14(@parcel/core@2.15.0)(@react-router/dev@0.0.0-experimental-e87ed2fd4(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)))(react-dom@19.1.0(react@19.1.0))(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-server-dom-parcel@19.1.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)
-      parcel-resolver-react-router-typegen-experimental: 1.0.12(@parcel/core@2.15.0)(@react-router/dev@0.0.0-experimental-e87ed2fd4(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)))
-      parcel-transformer-react-router-experimental: 1.0.0(@parcel/core@2.15.0)(react-dom@19.1.0(react@19.1.0))(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)
+      parcel-resolver-react-router-experimental: 1.1.0(@parcel/core@2.15.0)(@react-router/dev@0.0.0-experimental-e7eb25a7b(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)))(react-dom@19.1.0(react@19.1.0))(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-server-dom-parcel@19.1.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)
+      parcel-resolver-react-router-typegen-experimental: 1.1.0(@parcel/core@2.15.0)(@react-router/dev@0.0.0-experimental-e7eb25a7b(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)))
+      parcel-transformer-react-router-experimental: 1.1.0(@parcel/core@2.15.0)(react-dom@19.1.0(react@19.1.0))(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)
     transitivePeerDependencies:
       - '@parcel/core'
       - '@react-router/dev'
@@ -4939,31 +4947,31 @@ snapshots:
       - react-server-dom-parcel
       - supports-color
 
-  parcel-resolver-react-router-experimental@1.0.14(@parcel/core@2.15.0)(@react-router/dev@0.0.0-experimental-e87ed2fd4(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)))(react-dom@19.1.0(react@19.1.0))(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-server-dom-parcel@19.1.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0):
+  parcel-resolver-react-router-experimental@1.1.0(@parcel/core@2.15.0)(@react-router/dev@0.0.0-experimental-e7eb25a7b(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)))(react-dom@19.1.0(react@19.1.0))(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-server-dom-parcel@19.1.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0):
     dependencies:
       '@mjackson/node-fetch-server': 0.6.1
       '@parcel/plugin': 2.15.0(@parcel/core@2.15.0)
-      '@react-router/dev': 0.0.0-experimental-e87ed2fd4(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0))
+      '@react-router/dev': 0.0.0-experimental-e7eb25a7b(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0))
       express: 5.1.0
       jiti: 2.4.2
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
-      react-router: 0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      react-router: 0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react-server-dom-parcel: 19.1.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
     transitivePeerDependencies:
       - '@parcel/core'
       - napi-wasm
       - supports-color
 
-  parcel-resolver-react-router-typegen-experimental@1.0.12(@parcel/core@2.15.0)(@react-router/dev@0.0.0-experimental-e87ed2fd4(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0))):
+  parcel-resolver-react-router-typegen-experimental@1.1.0(@parcel/core@2.15.0)(@react-router/dev@0.0.0-experimental-e7eb25a7b(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0))):
     dependencies:
       '@parcel/plugin': 2.15.0(@parcel/core@2.15.0)
-      '@react-router/dev': 0.0.0-experimental-e87ed2fd4(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0))
+      '@react-router/dev': 0.0.0-experimental-e7eb25a7b(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0))
     transitivePeerDependencies:
       - '@parcel/core'
       - napi-wasm
 
-  parcel-transformer-react-router-experimental@1.0.0(@parcel/core@2.15.0)(react-dom@19.1.0(react@19.1.0))(react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0):
+  parcel-transformer-react-router-experimental@1.1.0(@parcel/core@2.15.0)(react-dom@19.1.0(react@19.1.0))(react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0):
     dependencies:
       '@babel/core': 7.27.1
       '@babel/generator': 7.27.1
@@ -4976,7 +4984,7 @@ snapshots:
       oxc-transform: 0.64.0
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
-      react-router: 0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      react-router: 0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
     transitivePeerDependencies:
       - '@parcel/core'
       - napi-wasm
@@ -5017,6 +5025,8 @@ snapshots:
   path-to-regexp@8.2.0: {}
 
   pathe@1.1.2: {}
+
+  pathe@2.0.3: {}
 
   picocolors@1.1.1: {}
 
@@ -5088,7 +5098,7 @@ snapshots:
 
   react-refresh@0.16.0: {}
 
-  react-router@0.0.0-experimental-e87ed2fd4(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  react-router@0.0.0-experimental-e7eb25a7b(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       cookie: 1.0.2
       react: 19.1.0
@@ -5361,12 +5371,12 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-node@3.0.0-beta.2(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0):
+  vite-node@3.1.4(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0):
     dependencies:
       cac: 6.7.14
       debug: 4.4.0
-      es-module-lexer: 1.6.0
-      pathe: 1.1.2
+      es-module-lexer: 1.7.0
+      pathe: 2.0.3
       vite: 6.3.0(@types/node@22.14.0)(jiti@2.4.2)(lightningcss@1.30.0)
     transitivePeerDependencies:
       - '@types/node'
