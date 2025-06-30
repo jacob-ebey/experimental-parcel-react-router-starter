@@ -2,6 +2,14 @@
 
 An experimental template for building full-stack React applications using React Router and React Server Components.
 
+> [!CAUTION]
+> This is an **experimental** starter template based on an **experimental** (and temporary) Parcel plugin to give folks an easy way to play with RSC's in React Router.
+>
+> You **should not** ship anything to production on this stack because:
+> 1. The React Router APIs are unstable and subject to change without notice
+> 2. More importantly, the Parcel plugin to provide `routes.ts` support is a short-term POC and will not be updated/maintained in the future once we have stable support for React Router Framework Mode via Vite
+
+
 ## Features
 
 - ⚛️ React Server Components
